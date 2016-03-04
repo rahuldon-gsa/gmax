@@ -1,0 +1,38 @@
+*.iws
+.settings
+/cobertura.ser
+.DS_Store
+.classpath
+.project
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+/*DB.*
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+/*.log
+
+# project release file
+/*.war
+/out/
+/web-app/WEB-INF/classes
+/.link_to_grails_plugins/
+
+# plugin release files
+/*.zip
+/plugin.xml
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+
+# "temporary" build files
+/target
+/target-eclipse/
